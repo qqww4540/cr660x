@@ -13,7 +13,7 @@ name: Update Checker
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: default
+#  REPO_BRANCH: default
 
 on:
   workflow_dispatch:
