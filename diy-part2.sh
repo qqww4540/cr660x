@@ -33,3 +33,4 @@ git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/l
 git clone https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone https://github.com/kenzok8/small package/small
 wget -O target/linux/ramips/patches-5.4/102-mt7621-fix-cpu-clk-add-clkdev.patch https://raw.githubusercontent.com/qqww4540/rule/main/102-mt7621-fix-cpu-clk-add-clkdev.patch
+wget -O package/small/dns2tcp/Makefile https://raw.githubusercontent.com/fw876/helloworld/master/dns2tcp/Makefile
